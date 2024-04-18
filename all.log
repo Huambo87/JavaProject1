@@ -1,0 +1,11 @@
+2024-04-17 19:49:38.180 [main] INFO  StaticClassesEnumsExceptions.Calculator - Running Calculate Method
+2024-04-17 19:49:38.181 [main] INFO  StaticClassesEnumsExceptions.Calculator - Result: 18.0
+2024-04-17 19:49:38.181 [main] INFO  StaticClassesEnumsExceptions.Calculator - Running Calculate Method
+2024-04-17 19:49:38.181 [main] INFO  StaticClassesEnumsExceptions.Calculator - Result: 0.5
+2024-04-17 19:49:38.182 [main] INFO  StaticClassesEnumsExceptions.Calculator - Running Calculate Method
+2024-04-17 19:49:38.182 [main] INFO  StaticClassesEnumsExceptions.Calculator - Result: 9.0
+2024-04-17 19:49:38.182 [main] INFO  StaticClassesEnumsExceptions.Calculator - Running Calculate Method
+2024-04-17 19:49:38.182 [main] ERROR StaticClassesEnumsExceptions.Calculator - Something went wrong!
+java.lang.NullPointerException: Cannot invoke "StaticClassesEnumsExceptions.Calculator$Type.ordinal()" because "type" is null
+	at StaticClassesEnumsExceptions.Calculator.calculate(Calculator.java:42) [classes/:?]
+	at StaticClassesEnumsExceptions.Main.main(Main.java:20) [classes/:?]
